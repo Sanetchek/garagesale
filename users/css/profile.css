@@ -1,0 +1,320 @@
+.form-table li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-radius: 40%;
+    margin-right: 20px;
+    float: left;
+}
+
+img#profile-picture-preview {
+    border-radius: 40%;
+    background: #fff;
+}
+
+.column-avatar .profile-picture, .column-avatar .profile-picture img#profile-picture-preview {
+    width: 100px;
+    height: 100px;
+}
+
+td.wideField input, td.slimField input, input#organization, input#autocomplete {
+    width: 100%;
+}
+
+.screen-reader-text, .screen-reader-text span, .ui-helper-hidden-accessible {
+    position: absolute;
+    margin: -1px;
+    padding: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+    word-wrap: normal!important;
+}
+
+.form-table input.phone {
+    width: 60%;
+}
+
+.profile-sidebar {
+    width: 250px;
+    float: left;
+    padding: 0 50px 0 5px;
+    box-sizing: border-box;
+}
+
+.profile-sidebar .image-container .profile-picture {
+    margin: 0;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.profile-sidebar ul.profile-menu li:hover, .profile-sidebar .active {
+    border-bottom: 1px solid #ccc;
+}
+
+.button-product {
+    text-align: center;
+    margin: 18px 0;
+}
+
+.button-product > button {
+    width: 100%;
+    background: #264467;
+    color: #fff;
+}
+
+ul.profile-menu {
+    margin-top: 20px;
+}
+
+ul.profile-menu li {
+    display: block;
+    padding: 5px 10px;
+}
+
+.profile-content {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+li.profile-info {
+    cursor: pointer;
+}
+
+.profile-wrap {
+    position: relative;
+    width: -webkit-calc(100% - 250px);
+    width: -moz-calc(100% - 250px);
+    width: calc(100% - 250px);
+    min-height: 600px;
+    float: right;
+}
+
+.profile-wrap > .loader, .account-content > .loader {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.profile-wrap >.loader img, .account-content > .loader img {
+    position: absolute;
+    top: 4%;
+    left: 45%;
+    -webkit-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.profile-gender li {
+    display: inline-block;
+}
+
+.profile-gender li + li {
+    margin-left: 4%;
+}
+
+.profile-gender label.label-head {
+    float: left;
+}
+
+.profile-wrap div {
+    padding: 6px 0;
+}
+
+.profile-wrap label.label-head {
+    display: inline-block;
+    width: 190px;
+}
+
+.profile-wrap label.phone {
+    height: 100px;
+    float: left;
+}
+
+.profile-wrap input#phone2 {
+    margin: 8px 0;
+}
+
+.profile-wrap input#phone1, input#phone2 {
+    display: block;
+}
+
+.profile-wrap input#organization, .profile-wrap input#autocomplete {
+    width: 40%;
+}
+
+.profile-location #locationField {
+    display: inline;
+}
+
+.profile-wrap .profile-organization, .profile-wrap .profile-fio {
+    display: none;       
+}
+
+#locationField input.city-search {
+    width: 54%;
+}
+
+.profile-location div label {
+    display: inline-block;
+    width: 10%;
+}
+
+.profile-location div label + input + label {
+    margin-left: 5%;
+}
+
+.profile-location input#admin_area, .profile-location input#city_route {
+    width: 40%;
+}
+
+.profile-location input#post_code, .profile-location input#street_num {
+    width: 8%;
+}
+
+.profile-location input#country_name, .profile-location input#local {
+    width: 24%;
+}
+
+.profile-content button.button-primary {
+    margin: 50px 0 0;
+}
+
+.account-wrapper {
+    width: 60%;
+    min-height: 400px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+.account-content {
+    position: relative;
+}
+
+.account-wrapper span.register-fields, .account-wrapper span.login-fields {
+    cursor: pointer;
+}
+
+.account-wrapper h1 {
+    font-family: "HeliosBlack",Helvetica,sans-serif;
+    font-size: 60px;
+    margin: 60px 0;
+    color: #8f8f8f;
+}
+
+.account-wrapper .register-fields:hover, .account-wrapper .login-fields:hover {
+    color: #4d4d4d;
+}
+
+.account-wrapper .active, .account-wrapper .login-separator {
+    color: #4d4d4d;
+}
+
+.account-fields form#loginform, .account-fields form#registrationform {
+    width: 50%;
+    float: left;
+    border-right: 1px solid #8f8f8f;
+    text-align: left;
+    padding: 35px 0;
+}
+
+.account-fields input, .account-fields input {
+    margin: 0 0 18px;
+}
+
+.account-fields input[type=text], .account-fields input[type=password], .account-fields input[type=email] {
+    width: 80%;
+    display: block;
+    padding: 8px;
+    height: 40px;
+}
+
+.account-fields input[type=text]:focus, .account-fields input[type=password]:focus, .account-fields input[type=email]:focus {
+    background: #ccc;
+}
+
+.account-fields form#loginform .rememberme {
+    margin-right: 25%;
+}
+
+.account-fields input.button.button-primary {
+    display: block;
+    width: 80%;
+    height: 36px;
+}
+
+.account-fields .form-wrap {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 40px;
+}
+
+.account-fields form#lostpasswordform input {
+    width: 100%;
+}
+
+.account-fields label {
+    line-height: 2;
+}
+
+.response-block {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    padding: 8px 20px;
+    background: #ec7a5c;
+    color: #fff;
+    max-width: 300px;
+    height: 60px;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.response-block:before {
+    content: "!";
+    float: left;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    padding: 7px;
+    box-sizing: border-box;
+    margin: 2px 18px 0 0;
+}
+
+/* Animation */
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}

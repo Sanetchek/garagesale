@@ -1,0 +1,89 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Garage Sale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-28 10:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Author of the theme
+msgid "Aleksandr Gryshko"
+msgstr ""
+
+#: template-parts/page/content-main.php:14
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#. Name of the theme
+msgid "Garage Sale"
+msgstr ""
+
+#. Description of the theme
+msgid "Garage Sale Bulletin board Theme"
+msgstr ""
+
+#: 404.php:7
+msgid "Oops! Эта страница не найдена."
+msgstr ""
+
+#: searchform.php:8
+msgctxt "placeholder"
+msgid "Где найти &hellip; ?"
+msgstr ""
+
+#: searchform.php:4
+msgctxt "placeholder"
+msgid "Что найти &hellip; ?"
+msgstr ""
+
+#: searchform.php:9
+msgctxt "submit button"
+msgid "Найти"
+msgstr ""
+
+#: footer.php:4
+msgid "© все права защищены - GarageSale, 2017"
+msgstr ""
+
+#: template-parts/header/header-front-page.php:42
+#: template-parts/header/header-main.php:51
+msgid "Выйти"
+msgstr ""
+
+#: 404.php:10
+msgid "Похоже ничего не найдено. Попробуйте поиск?"
+msgstr ""
+
+#: archive.php:22
+msgid "Предыдущая страница"
+msgstr ""
+
+#: template-parts/header/header-front-page.php:41
+#: template-parts/header/header-main.php:50
+msgid "Профиль"
+msgstr ""
+
+#: archive.php:23
+msgid "Следующая страница"
+msgstr ""
+
+#: archive.php:24
+msgid "Страница"
+msgstr ""
+
+#: author.php:35
+msgid "У этого автора нет товара."
+msgstr ""
+
+#: index.php:9
+msgid "Фильтр"
+msgstr ""

@@ -1,0 +1,335 @@
+/* Fonts */
+@font-face {
+    font-family: 'HeliosBlack';
+    src: url('../fonts/HeliosCondBlack.otf');
+    src: url("../fonts/HeliosCondBold.eot");
+    src: url("../fonts/HeliosCondBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HeliosCondBold.woff") format("woff"),
+    url("../fonts/HeliosCondBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Helios';
+    src: url("../fonts/HeliosCondRegular.eot");
+    src: url("../fonts/HeliosCondRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HeliosCondRegular.woff") format("woff"),
+    url("../fonts/HeliosCondRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Rockwell';
+    src: url("../fonts/RockwellRegular.eot");
+    src: url("../fonts/RockwellRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RockwellRegular.woff") format("woff"),
+    url("../fonts/RockwellRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'garage';
+    src:  url('../fonts/garage.eot?2f7q4i');
+    src:  url('../fonts/garage.eot?2f7q4i#iefix') format('embedded-opentype'),
+    url('../fonts/garage.ttf?2f7q4i') format('truetype'),
+    url('../fonts/garage.woff?2f7q4i') format('woff'),
+    url('../fonts/garage.svg?2f7q4i#garage') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="garage-"], [class*=" garage-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'garage' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.garage-logo:before {
+    content: "\e904";
+}
+.garage-filter:before {
+    content: "\e900";
+}
+.garage-location:before {
+    content: "\e901";
+}
+.garage-search:before {
+    content: "\e902";
+}
+.garage-spinner:before {
+    content: "\e903";
+}
+.garage-heart:before {
+    content: "\f08a";
+}
+.garage-user:before {
+    content: "\f2be";
+}
+
+
+/* Style */
+body {
+    font-family: "Helios", Helvetica, sans-serif;
+}
+
+/* Header */
+#header {
+    padding: 36px 0;
+}
+
+#header .logo {
+    display: block;
+    position: relative;
+    width: 52px;
+    height: 52px;
+    border-radius: 22px;
+    background: #76889e;
+    text-align: center;
+}
+
+#header .logo h2 {
+    position: absolute;
+    width: 6em;
+    left: 70px;
+    bottom: -10px;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    font-size: 1.2em;
+}
+
+#header .logo span {
+    font-size: 46px;
+    color: #fff;
+    line-height: 52px;
+}
+
+#header .header-nav {
+    font-family: "Rockwell",Helvetica,sans-serif;
+    color: #76889e;
+}
+
+span.user-profile a {
+    color: #76889e;
+    font-size: 12px;
+}
+
+.head-user-profile {
+    position: relative; 
+}
+
+span.head-profile-logout {
+    visibility: hidden;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    padding-top: 10px;
+    text-align: right;
+    opacity: 0;
+    z-index: 10;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    -moz-transition: visibility 0s, opacity 0.5s linear;
+    -o-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.head-user-profile:hover .head-profile-logout {
+    visibility: visible;
+    opacity: 1;
+}
+
+span.head-user-profile img {
+    position: relative;
+    top: 6px;
+    width: 25px;
+    height: 25px;
+    border-radius: 40%;
+    margin-left: 9px;
+}
+
+span.head-profile-logout a {
+    width: 142px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    background: #76889e;
+    color: #fff;
+    padding: 10px 20px 10px 70px;
+}
+
+span.head-profile-logout a:hover {
+    background: #000;
+}
+
+#header .right {
+    position: relative;
+    top: 18px;
+}
+
+.header-nav span.favorites {
+    margin-right: 20px;
+}
+
+.header-nav span.garage.garage-user, .header-nav span.garage.garage-heart {
+    font-size: 20px;
+    vertical-align: text-bottom;
+}
+
+.header-nav span.favor-count {
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+/* Main */
+#main header.main-head {
+    position: relative;
+    height: 250px;
+    text-align: center;
+}
+
+#main .main-head-wrap {
+    padding-top: 75px;
+}
+
+#main .main-head-wrap h1 {
+    font-family: "HeliosBlack", Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+#main .main-head-wrap span.current {
+    color: #76889e;
+}
+
+.search-wrap {
+    margin: 0 auto;
+    max-width: 1135px;
+}
+
+.profile-wrap form div + div {
+    margin-top: 27px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-wrap input.search-field, .search-wrap input.city-search {
+    width: 34%;
+    height: 50px;
+    padding-left: 50px;
+    border: 2px solid #76889e;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: "Rockwell",Helvetica,sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.search-wrap input.search-field {
+    background: url(../images/search-icon.svg) 9px/32px no-repeat;
+}
+
+.search-wrap input.city-search {
+    background: url(../images/location-icon.svg) 9px/32px no-repeat;
+}
+
+#locationField input.city-search {
+    background: url(../images/location-icon.svg) 5px/20px no-repeat;
+    padding-left: 30px;
+}
+
+form.search-form input {
+    margin-left: 3.5%;
+}
+
+button.search-submit {
+    float: right;
+}
+
+button.search-submit {
+    width: 105px;
+    height: 50px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 0;
+    font-family: "Rockwell",Helvetica,sans-serif;
+    font-weight: bold;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #76889e;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+span.search-filter {
+    font-family: "Rockwell",Helvetica,sans-serif;
+    font-size: 14px;
+    color: #757575;
+    float: left;
+    height: 50px;
+    margin-right: 2%;
+}
+
+span.search-filter span {
+    color: #76889e;
+    font-size: 32px;
+    position: relative;
+    top: 8px;
+    margin-right: 9px;
+}
+
+.article {
+    margin: 95px 0;
+}
+
+.footer {
+    height: 140px;
+    font-family: "Helios", Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 34px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.block .thumbnail {
+    min-height: 300px;
+    position: relative;
+}
+
+.block .thumbnail span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    background: #4d4d4d;
+    width: 110px;
+    height: 120px;
+    border-radius: 40%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+}
+
+/* Profile page */
+label.label-head {
+    font-family: 'HeliosBlack', Helvetica, sans-serif;
+}

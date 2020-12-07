@@ -1,0 +1,470 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Garage Sale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-28 11:04+0000\n"
+"PO-Revision-Date: 2018-02-28 11:32+0000\n"
+"Last-Translator: Александр Гришко <algryshko@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: users/profile-functions.php:509
+msgid ", чтобы сбросить пароль перейдите по ссылке:"
+msgstr ", to reset the password, click on the link below:"
+
+#. Author of the theme
+msgid "Aleksandr Gryshko"
+msgstr "Aleksandr Gryshko"
+
+#: users/templates/profile-register.php:5
+msgid "Email"
+msgstr "Email"
+
+#: users/profile-functions.php:376
+msgid "Email - обязательное поле."
+msgstr "Email - required field."
+
+#: users/templates/profile-page.php:104
+#: users/templates/admin/profile-fields.php:103
+msgid "Facebook"
+msgstr "Facebook"
+
+#. Name of the theme
+msgid "Garage Sale"
+msgstr "Garage Sale"
+
+#. Description of the theme
+msgid "Garage Sale Bulletin board Theme"
+msgstr "Garage Sale Bulletin board Theme"
+
+#: users/templates/profile-page.php:109
+#: users/templates/admin/profile-fields.php:110
+msgid "Instagram"
+msgstr "Instagram"
+
+#: users/messenger/messenger.php:46
+msgid "Message"
+msgstr "Message"
+
+#: users/messenger/messenger.php:44 users/messenger/messenger.php:45
+msgid "Messenger"
+msgstr "Messenger"
+
+#: users/templates/profile-page.php:114
+#: users/templates/admin/profile-fields.php:116
+msgid "Twitter"
+msgstr "Twitter"
+
+#: users/templates/admin/profile-fields.php:39
+msgid "Аватар"
+msgstr "Avatar"
+
+#: users/templates/profile-page.php:86
+#: users/templates/admin/profile-fields.php:80
+msgid "Адрес"
+msgstr ""
+"Address\n"
+
+#: users/profile-functions.php:433
+msgid "Активация пользователя."
+msgstr "User activation."
+
+#: users/activate.php:12
+msgid "Активация прошла успешно. Теперь вы можете войти."
+msgstr "Activation was successful. Now you can enter."
+
+#: users/profile-functions.php:430
+msgid "Активировать"
+msgstr "Activate"
+
+#: users/templates/profile-page.php:67
+#: users/templates/admin/profile-fields.php:56
+msgid "Введите адрес"
+msgstr "Enter the address"
+
+#: users/templates/profile-page.php:29
+#: users/templates/admin/profile-fields.php:24
+msgid "Введите название организации"
+msgstr "Enter the name of the organization"
+
+#: users/templates/profile-page.php:50 users/templates/profile-page.php:51
+#: users/templates/profile-page.php:52
+#: users/templates/admin/profile-fields.php:31
+#: users/templates/admin/profile-fields.php:32
+#: users/templates/admin/profile-fields.php:33
+msgid "Введите номер телефона"
+msgstr "Enter phone number"
+
+#: users/profile-functions.php:387
+msgid ""
+"Все прошло отлично. Вы зарегистрировались. На вашу почту отправлено письмо с "
+"ссылкой на активацию."
+msgstr ""
+"Everything went perfectly. You are registered. An email with activation link "
+"has been sent to your e-mail."
+
+#: users/profile-functions.php:355
+msgid "Вы вышли."
+msgstr "You left."
+
+#: users/profile-functions.php:354
+msgid "Вы не авторизованы."
+msgstr ""
+"You are not authorized.\n"
+
+#: users/profile-functions.php:453
+msgid "Вы не заполнили поле"
+msgstr "You did not fill out the field"
+
+#: users/profile-functions.php:533
+msgid "Вы удачно изменили пароль."
+msgstr "You have successfully changed your password."
+
+#: users/profile-functions.php:373
+msgid "Вы уже авторизованы!"
+msgstr "You are already authorized!"
+
+#: users/profile-functions.php:308
+msgid "Вы уже авторизованы."
+msgstr "You are already authorized."
+
+#: users/templates/profile-page.php:94
+#: users/templates/admin/profile-fields.php:91
+msgid "Город"
+msgstr ""
+"City\n"
+
+#: users/activate.php:14
+msgid "Данные активации не верны или вы уже активированы."
+msgstr "The activation data is not valid or you are already activated."
+
+#: users/profile-functions.php:307 users/profile-functions.php:353
+#: users/profile-functions.php:374 users/profile-functions.php:452
+#: users/profile-functions.php:527
+msgid "Данные присланные со сторонней страницы "
+msgstr "Data sent from a third-party page"
+
+#: users/profile-functions.php:429
+msgid "Для активации пользователя на сайте"
+msgstr "To activate the user on the site"
+
+#: users/templates/profile-sidebar.php:11
+msgid "Добавить товар"
+msgstr "Add item"
+
+#: users/templates/profile-page.php:88
+#: users/templates/admin/profile-fields.php:84
+msgid "Дом"
+msgstr "House"
+
+#: users/templates/admin/profile-fields.php:1
+msgid "Дополнительная информация"
+msgstr ""
+"Additional Information\n"
+
+#: users/templates/profile-login.php:18
+msgid "Забыли пароль?"
+msgstr ""
+"Forgot your password?\n"
+
+#: users/profile-functions.php:529
+msgid "Заполните поля с паролями."
+msgstr "Fill out the password fields."
+
+#: users/reset-password.php:34
+msgid "Изменить пароль"
+msgstr ""
+"Change password\n"
+
+#: users/templates/profile-page.php:56
+msgid "Изображение профиля"
+msgstr ""
+"Profile picture\n"
+
+#: users/messenger/messenger.php:108 users/messenger/messenger.php:110
+#: users/templates/profile-page.php:34
+msgid "Имя"
+msgstr "Name"
+
+#: users/templates/profile-page.php:80
+#: users/templates/admin/profile-fields.php:73
+msgid "Индекс"
+msgstr ""
+"Postcode\n"
+
+#: users/profile-functions.php:531
+msgid "Ключ безопасности не верный, запросите смену пароля повторно."
+msgstr "The security key is not correct, ask for the password change again."
+
+#: users/profile-functions.php:530
+msgid "Ключ безопасности устарел, запросите смену пароля повторно."
+msgstr "The security key is obsolete, ask for the password change again."
+
+#: users/reset-password.php:18
+msgid "Ключ и (или) логин не были переданы, либо не верны."
+msgstr "The key and (or) login were not transferred, or are not true."
+
+#: users/profile-functions.php:509
+msgid "Кто-то запросил сброс пароля на сайте:"
+msgstr "Someone asked for a password reset on the site:"
+
+#: users/login.php:10 users/templates/profile-register.php:3
+msgid "Логин"
+msgstr "Login"
+
+#: users/profile-functions.php:378
+msgid "Логин - обязательное поле."
+msgstr "Login is a required field."
+
+#: users/lost-password.php:18 users/templates/profile-login.php:4
+msgid "Логин или email"
+msgstr "Login or email"
+
+#: users/profile-functions.php:386
+msgid "Логин только латиницей."
+msgstr "Login only in Latin."
+
+#: users/templates/profile-page.php:65
+#: users/templates/admin/profile-fields.php:53
+msgid "Местоположение"
+msgstr "Location:"
+
+#: users/templates/profile-page.php:28
+#: users/templates/admin/profile-fields.php:22
+msgid "Название организации"
+msgstr ""
+"Name of the organization\n"
+
+#: users/activate.php:7
+msgid "Не переданы параметры активации."
+msgstr "Activation parameters are not passed."
+
+#: users/reset-password.php:23
+msgid "Новый пароль"
+msgstr ""
+"New password\n"
+
+#: users/templates/profile-page.php:49
+#: users/templates/admin/profile-fields.php:29
+msgid "Номер телефона"
+msgstr ""
+"Phone number\n"
+
+#: users/templates/profile-page.php:78
+#: users/templates/admin/profile-fields.php:69
+msgid "Область"
+msgstr "Region"
+
+#: users/messenger/messenger.php:103
+msgid "Отправитель"
+msgstr "Sender"
+
+#: users/messenger/messenger.php:93 users/messenger/messenger.php:244
+#: users/messenger/messenger.php:247
+msgid "Отправить"
+msgstr "Send"
+
+#: users/profile-functions.php:311
+msgid "Ошибка. Проверте поля: логин/email или пароль."
+msgstr "Error. Check the fields: username / email or password."
+
+#: users/profile-functions.php:377
+msgid "Ошибочный формат email"
+msgstr "Wrong email format"
+
+#: users/profile-functions.php:528
+msgid "Параметры изменения пароля отсутствуют."
+msgstr "There are no password change options."
+
+#: users/profile-functions.php:381 users/profile-functions.php:532
+msgid "Пароли не совпадают"
+msgstr ""
+"Passwords do not match\n"
+
+#: users/templates/profile-login.php:8 users/templates/profile-register.php:8
+msgid "Пароль"
+msgstr "Password"
+
+#: users/profile-functions.php:379
+msgid "Пароль - обязательное поле."
+msgstr "Password is required."
+
+#: users/profile-functions.php:383
+msgid "Пароль не может содержать обратные слеши \"\\\""
+msgstr "The password can not contain backslashes \"\\\""
+
+#: users/profile-functions.php:457
+msgid ""
+"Письмо со ссылкой на страницу изменения пароля отправлено на адрес, "
+"указанный при регистрации. Если вы не получили письмо, проверьте папку "
+"\"Спам\" или попробуйте еще раз."
+msgstr ""
+"A letter with a link to the password change page was sent to the address "
+"specified at registration. If you did not receive the email, check the Spam "
+"folder or try again."
+
+#: users/reset-password.php:28
+msgid "Повторите новый пароль"
+msgstr ""
+"Repeat new password\n"
+
+#: users/profile-functions.php:380 users/templates/profile-register.php:10
+msgid "Повторите пароль"
+msgstr ""
+"Repeat password\n"
+
+#: users/profile-functions.php:309
+msgid "Поле логин или email не заполнено"
+msgstr "Login or email field is empty"
+
+#: users/profile-functions.php:310
+msgid "Поле пароль не заполнено"
+msgstr "Password field is empty"
+
+#: users/messenger/messenger.php:77 users/messenger/messenger.php:100
+msgid "Получатель"
+msgstr "Recipient"
+
+#: users/templates/profile-page.php:18
+#: users/templates/admin/profile-fields.php:11
+msgid "Пользователь"
+msgstr "User"
+
+#: users/profile-functions.php:312 users/profile-functions.php:455
+msgid "Пользователь еще не активирован."
+msgstr "The user has not yet been activated."
+
+#: users/profile-functions.php:384
+msgid "Пользователь с таким email уже существует."
+msgstr "A user with this email already exists."
+
+#: users/profile-functions.php:385
+msgid "Пользователь с таким логином уже существует."
+msgstr "A user with such login already exists."
+
+#: users/profile-functions.php:454
+msgid "Пользователя с таким email не существует."
+msgstr "A user with such an email does not exist."
+
+#: users/profile-functions.php:428 users/profile-functions.php:508
+msgid "Привет."
+msgstr "Hello!"
+
+#: users/templates/profile-sidebar.php:20
+msgid "Продвижение"
+msgstr "Promotion"
+
+#: users/templates/profile-sidebar.php:15
+msgid "Профиль"
+msgstr "Profile"
+
+#: users/login.php:12 users/templates/profile-register.php:13
+msgid "Регистрация"
+msgstr ""
+"Registration\n"
+
+#: users/profile-functions.php:375
+msgid "Регистрация пользователей временно недоступна."
+msgstr "User registration is temporarily unavailable."
+
+#: users/profile-functions.php:456
+msgid "Сброс пароля запрещен. Пожалуйста свяжитесь с администратором сайта."
+msgstr "Password reset is forbidden. Please contact the site administrator."
+
+#: users/profile-functions.php:513
+msgid "Сброс пароля пользователя "
+msgstr "Reset user password"
+
+#: users/lost-password.php:21
+msgid "Сбросить"
+msgstr "Reset"
+
+#: users/profile-functions.php:510
+msgid "Сбросить пароль"
+msgstr ""
+"Reset the password\n"
+
+#: users/profile-functions.php:382
+msgid "Слишком короткий пароль"
+msgstr ""
+"Too short password\n"
+
+#: users/lost-password.php:10 users/reset-password.php:10
+msgid "Смена пароля"
+msgstr ""
+"Change Password\n"
+
+#: users/templates/profile-sidebar.php:16
+msgid "Сменить пароля"
+msgstr "Change Password"
+
+#: users/templates/profile-sidebar.php:17
+msgid "Сообщения"
+msgstr "Messages"
+
+#: users/templates/profile-page.php:119 users/templates/profile-password.php:23
+msgid "Сохранить"
+msgstr "Save"
+
+#: users/templates/profile-sidebar.php:21
+msgid "Статистика"
+msgstr "Statistics"
+
+#: users/templates/profile-sidebar.php:18
+msgid "Статьи"
+msgstr "Articles"
+
+#: users/templates/profile-page.php:96
+#: users/templates/admin/profile-fields.php:95
+msgid "Страна"
+msgstr ""
+"Country\n"
+
+#: users/templates/profile-sidebar.php:19
+msgid "Товары"
+msgstr ""
+"Goods\n"
+
+#: users/templates/profile-page.php:38
+msgid "Фамилия"
+msgstr "Surname"
+
+#: users/messenger/messenger.php:107 users/messenger/messenger.php:109
+msgid "Фото"
+msgstr ""
+"Photo\n"
+
+#: users/templates/profile-page.php:44
+msgid "Электронный адрес"
+msgstr "Email address"
+
+#: users/templates/profile-page.php:22
+#: users/templates/admin/profile-fields.php:15
+msgid "женщина"
+msgstr ""
+"female\n"
+
+#: users/templates/profile-page.php:23
+#: users/templates/admin/profile-fields.php:16
+msgid "компания"
+msgstr "company"
+
+#: users/profile-functions.php:511
+msgid "либо проигнорируйте это письмо."
+msgstr "or ignore this email."
+
+#: users/templates/profile-page.php:21
+#: users/templates/admin/profile-fields.php:14
+msgid "мужчина"
+msgstr ""
+"man\n"
+
+#: users/profile-functions.php:429
+msgid "перейдите по ссылке: "
+msgstr ""
+"follow this link:\n"
