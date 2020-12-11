@@ -28,7 +28,7 @@ jQuery(function(jQuery) {
         return false;
     });
 
-    jQuery('.repeatable-remove').click(function(){
+    jQuery('.repeatable-remove').click(function() {
         jQuery(this).parent().parent().remove();
         return false;
     });
@@ -42,7 +42,7 @@ jQuery(function(jQuery) {
 });
 
 
-jQuery(document).ready(function($){
+jQuery(document).ready(function($) {
     var custom_uploader;
     $('#upload_image_button').click(function(e) {
         e.preventDefault();
@@ -61,9 +61,9 @@ jQuery(document).ready(function($){
         });
         custom_uploader.on('select', function() {
             var selection = custom_uploader.state().get('selection');
-            selection.map( function( attachment ) {
+            selection.map(function(attachment) {
                 attachment = attachment.toJSON();
-                $("#obal").after("<img src=" +attachment.url+">");
+                $("#obal").after("<img src=" + attachment.url + ">");
             });
         });
         custom_uploader.open();

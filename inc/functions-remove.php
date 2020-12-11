@@ -54,22 +54,6 @@ add_filter( 'script_loader_src', 'rem_wp_ver_css_js', 9999 );
 
 /*
 ===================================================================
-           Change logotype link to site (not to wordpress.org)
-===================================================================
-*/
-
-add_filter( 'login_headerurl', create_function('', 'return get_home_url();') );
-
-/*
-===================================================================
-           Remove title in logotype "сайт работает на wordpress"
-===================================================================
-*/
-
-add_filter( 'login_headertitle', create_function('', 'return false;') );
-
-/*
-===================================================================
            Custom WordPress Footer
 ===================================================================
 */

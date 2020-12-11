@@ -1,4 +1,10 @@
 <?php
+/*
+===================================================================
+          Contact Form
+===================================================================
+*/
+require_once ('contact-form/functions-contact-form.php');
 
 /*
 ===================================================================
@@ -24,17 +30,12 @@ require_once ('inc/functions-walker.php');
 /*
  * Meta fields                                        -   ON
 */
-require_once ('inc/functions-fields.php');
+// require_once ('inc/functions-fields.php');
 
 /*
  * Address-autocomplete-using-google-place-api          -   ON
 */
 require_once ('google-maps-api/functions-gmapsapi.php');
-
-/*
- * Add Category page to admin menu                      -   ON
- */
-require_once ('shop/shop-pages.php');
 
 /*
  * Login redirect if not administrator                  -   ON
@@ -47,7 +48,7 @@ require_once ('shop/shop-pages.php');
  * Delete all image sizes from user profile page        -   ON
  * Delete all image sizes from: post, type_post, page   -   ON
  * Modify user table                                    -   ON
- * 
+ *
  **/
 require_once ('inc/functions-limits.php');
 
@@ -55,13 +56,13 @@ require_once ('inc/functions-limits.php');
  * Remove Admin bar                                     -   Off
  * Remove WordPress Meta Generator                      -   ON
  * REMOVE WP EMOJI                                      -   ON
- * Removing WordPress Version from pages, 
+ * Removing WordPress Version from pages,
    RSS, scripts and styles                              -   ON
  * Change logotype link to site (not to wordpress.org)  -   ON
  * Remove title in logotype "сайт работает на wordpress"-   ON
  * Custom WordPress Footer                              -   ON
  * Remove WordPress Version From The Admin Footer       -   ON
- * 
+ *
  * */
 require_once('inc/functions-remove.php');
 
@@ -87,7 +88,7 @@ require_once ('inc/functions-plugins.php');
 */
 
 function my_favicon() {
-	echo '<link rel="shortcut Icon" type="image/x-icon"
+    echo '<link rel="shortcut Icon" type="image/x-icon"
  href="' . get_template_directory_uri() . '/assets/images/favicon.ico" />';
 }
 add_action('wp_head', 'my_favicon');
@@ -135,11 +136,11 @@ function garage_scripts()
 {
     // Styles
     wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
-	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/main.min.css');
-	wp_enqueue_style('general', get_template_directory_uri() . '/assets/css/general.min.css');
+    wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/main.min.css');
+    wp_enqueue_style('general', get_template_directory_uri() . '/assets/css/general.min.css');
 
     // Scripts
-	wp_enqueue_script( 'jquery' );
+    wp_enqueue_script( 'jquery' );
     wp_enqueue_script('script', get_template_directory_uri() . '/assets/js/script.min.js', false, null, true);
 }
 
@@ -163,12 +164,12 @@ register_nav_menus(array(
 */
 
 function garage_widgets_init() {
-	register_sidebar( array(
-		'name' => __( 'Main Sidebar', 'garage' ),
-		'id' => 'sidebar',
-		'description' => __( 'Widgets in this area will be shown on all posts and pages.', 'garage' ),
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget' => '</div>'
-	) );
+    register_sidebar( array(
+        'name' => __( 'Main Sidebar', 'garage' ),
+        'id' => 'sidebar',
+        'description' => __( 'Widgets in this area will be shown on all posts and pages.', 'garage' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>'
+    ) );
 }
 add_action( 'widgets_init', 'garage_widgets_init' );

@@ -3,7 +3,7 @@
 /*
  * Messenger
  */
-require_once('messenger/messenger.php');
+// require_once('messenger/messenger.php');
 
 /*
 ===================================================================
