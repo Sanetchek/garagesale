@@ -41,7 +41,7 @@ function customize_contact_form_settings() {
 function customize_contact_form_email_to() {
     $contactEmailTo = get_option( 'contact_email_to' );
     echo '<input type="text" name="contact_email_to" placeholder="'. __( 'email', 'theme_language') .'" value="'. $contactEmailTo .'" >
-    <p>'. __( 'Введите email на которых должы приходить сообщения', 'theme_language') .'</p>
+    <p>'. __( 'Введите email на который должы приходить сообщения', 'theme_language') .'</p>
     ';
 }
 
